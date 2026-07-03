@@ -1,8 +1,33 @@
 # nestjs-best-practices-plugin
 
-A [Claude Code](https://claude.com/claude-code) plugin bundling 12 NestJS best-practice skills (90 rules total), grounded in the official [NestJS docs](https://docs.nestjs.com). Each skill follows a consistent format: an `impact`-tagged rule index plus incorrect/correct TypeScript examples.
+12 NestJS best-practice skills (90 rules total), grounded in the official [NestJS docs](https://docs.nestjs.com). Each skill follows a consistent format: an `impact`-tagged rule index plus incorrect/correct TypeScript examples.
+
+## Supported Coding Agents
+
+These skills can be installed via [`npx skills`](https://github.com/vercel-labs/skills) for any agent that supports the [Agent Skills specification](https://skills.sh), including Claude Code, Codex, Gemini CLI, Cursor, Windsurf, and more.
 
 ## Install
+
+### Quick Install (any supported agent)
+
+Using [`npx skills`](https://github.com/vercel-labs/skills):
+
+```bash
+# Current project
+npx skills add dkmqflx/nestjs-best-practices-plugin --skill '*' --yes
+
+# All projects (global)
+npx skills add dkmqflx/nestjs-best-practices-plugin --skill '*' --yes --global
+```
+
+To target a specific agent:
+
+```bash
+npx skills add dkmqflx/nestjs-best-practices-plugin --agent codex --skill '*' --yes
+npx skills add dkmqflx/nestjs-best-practices-plugin --agent gemini-cli --skill '*' --yes
+```
+
+### Claude Code Plugin
 
 ```
 /plugin marketplace add dkmqflx/nestjs-best-practices-plugin
