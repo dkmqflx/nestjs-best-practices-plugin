@@ -1,5 +1,7 @@
 # nestjs-best-practices-plugin
 
+[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](https://github.com/dkmqflx/nestjs-best-practices-plugin/releases/tag/nestjs-best-practices--v0.1.0)
+
 12 NestJS best-practice skills (90 rules total), grounded in the official [NestJS docs](https://docs.nestjs.com). Each skill follows a consistent format: an `impact`-tagged rule index plus incorrect/correct TypeScript examples.
 
 ## Supported Coding Agents
