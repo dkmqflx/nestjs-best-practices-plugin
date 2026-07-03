@@ -1,0 +1,15 @@
+{
+  "name": "nestjs-best-practices-plugin",
+  "description": "NestJS best-practice skills for Claude Code",
+  "owner": {
+    "name": "dkmqflx",
+    "email": "dkmqflx@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "nestjs-best-practices",
+      "source": "./plugins/nestjs-best-practices",
+      "description": "12 NestJS best-practice skills (90 rules) covering modules & DI, controllers, validation, guards/auth, interceptors, exception filters, config, database, caching/queues, testing, security, and performance/logging."
+    }
+  ]
+}

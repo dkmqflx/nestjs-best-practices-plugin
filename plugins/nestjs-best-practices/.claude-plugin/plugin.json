@@ -1,0 +1,11 @@
+{
+  "name": "nestjs-best-practices",
+  "description": "12 NestJS best-practice skills (90 rules) covering modules & DI, controllers, validation, guards/auth, interceptors, exception filters, config, database, caching/queues, testing, security, and performance/logging.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dkmqflx",
+    "email": "dkmqflx@gmail.com"
+  },
+  "homepage": "https://github.com/dkmqflx/nestjs-best-practices-plugin",
+  "license": "MIT"
+}
